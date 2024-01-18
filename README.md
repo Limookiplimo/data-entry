@@ -1,3 +1,3 @@
 # Django Forms
 
-Creating crispy forms with Django.
+Creating forms with Django ModelForm.

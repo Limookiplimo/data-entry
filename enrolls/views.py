@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .forms import EmployeeForm
 
 # Create your views here.
-def register_employee(request):
+def enroll_employee(request):
     form = EmployeeForm()
     
     if request.method == "POST":
@@ -11,4 +11,10 @@ def register_employee(request):
             form.save()
 
     context = {"form":form}
-    return render(request, "enrolls/register.html", context)
+    return render(request, "enrolls/enroll.html", context)
+
+def user_login():
+    pass
+
+def register_user():
+    pass

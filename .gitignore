@@ -1,4 +1,7 @@
-venv
+venv/
 __pycache__
 migrations
 db.sqlite3
+tests.py 
+migrations/
+__pycache__/
